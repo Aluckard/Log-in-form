@@ -1,0 +1,122 @@
+/*MOBILE FIRST*/
+/*===============================*/
+@media screen and (min-width: 768px) {
+
+    body {
+        margin: 0;
+        background: #000000 url("../img/bg__mobile.jpg") no-repeat center/cover;
+    }
+
+    .header {
+        padding: 24px 40px 24px 24px;
+    }
+
+    .navigation__mobile-version {
+        display: none;
+    }
+
+    .navigation--container {
+        width: 340px;
+        flex-direction: initial;
+        justify-content: space-between;
+        top: 0;
+    }
+
+    .navigation__item__link {
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 0;
+        color: #FFFFFF;
+        width: 100%;
+        list-style: none;
+        background: none;
+        border: none;
+        display: flex;
+        align-items: center;
+    }
+
+    .navigation__item__img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .mr-6 {
+        margin-right: 6px;
+    }
+
+    .navigation .navigation--container {
+        display: inherit;
+    }
+
+    .log-in__sign-up {
+        width: 314px;
+    }
+
+    .log-in__form {
+        width: 353px;
+    }
+
+    .form__container {
+        padding: 0 19px 36px 24px;
+    }
+
+    .footer {
+        padding: 74px 72px 30px 40px;
+    }
+
+    .mr-50 {
+        margin-right: 50%;
+    }
+
+    .footer__text {
+        width: 100%;
+        justify-content: center;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1140px) {
+    .header {
+        padding: 46px 10px 0 10px;
+        background: none;
+    }
+
+    .container__form {
+        padding-top: 102px;
+    }
+
+    .log-in__sign-up {
+        width: 324px;
+    }
+
+    .log-in__form {
+        width: 365px;
+    }
+
+    .form__container {
+        padding: 0 31px 36px 24px;
+    }
+
+    .footer {
+        padding: 73px 10px 30px 10px;
+    }
+
+    .m-0 {
+        margin: 0;
+    }
+
+    .footer__navigation {
+        flex-wrap: initial;
+    }
+
+    .footer__text {
+        align-items: center;
+        padding: 0;
+        width: auto;
+        color: #FFFFFF;
+    }
+
+    .ml-auto {
+        margin-left: 45%;
+    }
+}
